@@ -1,0 +1,31 @@
+/* custom css file made by JeanDoe */
+
+:root{
+	--main-clr: #8c8;
+	--white: #fff;
+	--black: #1a1b1c;
+	--light-clr: #7a7b7c;
+	--light-bg: #e1f1d1;
+	--red: #ff4754;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+}
+
+body{
+	background: var(--light-bg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	font-family: 'Ubuntu Mono', sans-serif;
+}
+
+
+
